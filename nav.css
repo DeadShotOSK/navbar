@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header_mobile {
+    display: none;
+}
+
+.main-header_item-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #171A1C;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    height: 70px;
+}
+
+.main-header_itemImage {
+    float: left;
+}
+
+.main-header_itemImage a{
+    color: #48C5BF;
+    text-decoration: none;  
+    display: block;
+    margin-left: 25px;
+    padding: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.main-header_item {
+    float: left;
+}
+.main-header_itemDiv {
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    height: 100%;
+}
+
+.main-header_item a {
+    color: #48C5BF;
+    text-decoration: none;
+    font-size: 25px;  
+    display: block;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 15px;
+}
+
+.main-header_item a:hover {
+    background-color: black;
+    color: #77868e;
+}
+
+.bars {
+        display: none;
+    }
+
+/* for Mobiles/Tablets */
+
+@media screen and (max-width: 916px)
+{
+    .bars 
+	{
+		display: block;
+		background-color: 404040;
+		cursor: pointer;
+        float: right;
+        margin-right: 40px;
+        margin-top: 14px;
+	}
+    
+    .main-header_item-list {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .main-header_itemImage {
+        float: left;
+    }
+    
+    .main-header_mobile {
+        background-color: #171A1C;
+        overflow: hidden;
+        display: block;
+        height: 0;
+    }
+    
+    .main-header_mobile.open {
+        height: auto;
+        margin-top: 0;
+        list-style-type: none;
+    }
+    
+    .main-header_mobileView a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #48C5BF;
+        display: block;
+        padding: 7px;
+        margin: 0;
+    }
+    
+    .main-header_mobileView a:hover {
+        background-color: black;
+        color: #77868e;
+    }
+}

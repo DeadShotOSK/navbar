@@ -1,0 +1,37 @@
+/* forTablets */
+
+@media screen and (max-width: 810px)
+{
+    .main-header_item-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #171A1C;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    height: 70px;
+}
+    
+    .main-header_itemImage {
+        float: none;
+    }
+    
+    .main-header_itemDiv {
+        float: none;    
+        margin: 0;
+    }
+    
+    .main-header_item {
+        text-align: center;
+        width: 20%;
+        padding: 0;
+    }
+    
+    .main-header_item a {
+        font-size: 20px;
+    }
+    
+    .bars {
+        display: none;
+    }
+}
